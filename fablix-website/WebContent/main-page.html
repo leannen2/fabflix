@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main-page.css"/>
+</head>
+<body>
+
+<h1>Search For Movie</h1>
+<a href="search-movie.html">Search Movie With Fulltext</a> <br><br>
+<label for="search_title">Movie Title: </label>
+<input id="search_title" type="search"/>
+<label for="search_year">Movie Year: </label>
+<input id="search_year" type="search"/>
+<label for="search_director">Movie Director: </label>
+<input id="search_director" type="search"/>
+<label for="search_star">Star: </label>
+<input id="search_star" type="search"/>
+<input id="search_button" type="button" value="Search"/>
+
+<h1>Browse Movie</h1>
+<div id="browse_letter"/>
+<br>
+<div id="browse_genre"/>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="main-page.js"></script>
+
+</body>
+</html>

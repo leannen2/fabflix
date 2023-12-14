@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<label for="payment-form">Credit Card Information</label>
+<form id="payment-form" method="post">
+    <label for="first-name">First Name: </label>
+    <input type="text" id="first-name" name="firstName">
+    <br> <br>
+
+    <label for="last-name">Last Name: </label>
+    <input type="text" id="last-name" name="lastName">
+    <br><br>
+
+    <label for="credit-card-num">Credit Card Number: </label>
+    <input type="text" id="credit-card-num" name="creditCardNum">
+    <br><br>
+
+    <label for="expiration-date">Expiration Date (YYYY-MM-DD): </label>
+    <input type="text" id="expiration-date" name="expirationDate">
+    <br><br>
+    <input class="btn btn-warning" type="submit" value="Place Order">
+</form>
+
+<p id="payment-error-message" style="color: red"></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="module" src="payment-page.js"></script>
+</body>
+</html>

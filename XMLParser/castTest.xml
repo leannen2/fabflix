@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!--DOCTYPE casts PUBLIC "-//DAML Project//DTD Play//EN"-->
+
+<!-- MASTER BASE File of casts in [varese]mydocs/mov/xml/castsnnn.xml. -->
+<!-- XML copy, validated with IE, 29 Dec 2003-->
+<!-- This file is copyright 1987,1989,1990,1993,1996,1998,2000,2003 by Gio Wiederhold. -->
+<!-- Corresponding DTD is in [varese]mydocs/mov/xml/castmm.dtd -->
+<!-- Total 48K+ entries (April 2001). ~9000 films by ~2700 directors -->
+<!-- CASTS: Fairly complete for Hitchcock actors. -->
+<!-- Entries are arranged alphabetically by directors' and film codes, -->
+<!-- The major fields are {filmcode, title, actor, followed by dep. info, -->
+<!-- 		role-type, role-description, and optional role-name, role-specs} -->
+<!-- Each letter section starts with a comment with 5 repeats of the letter -->
+<!-- For each director a header entry is provided with {code, name, note} -->
+<!-- AAAAA: Directors starting with A. -->
+<casts>
+    <dirfilms><dirid>AA</dirid><is>Asquith</is><castnote>Actors and notes.</castnote>
+        <filmc>
+            <m><f>AA13</f><t>Pygmalion</t><a>Leslie Howard</a><p>Sci</p><r>smug professor</r> <n>Higgins</n><awards><award>AAN</award></awards></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Wendy Hiller</a><p>Inn</p><r>flower girl</r> <n>Eliza</n><awards><award>AAN</award></awards></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Wilfrid Lawson</a><p>Sdk</p><r>Eliza's father</r> <n>Dolittle</n></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Scott Sunderland</a><p>Und</p><r>betting Colonel</r> <n>Pickering</n></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Marie Lohr</a><p>Und</p><r></r> <n>Mrs.Higgins</n></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Iris Hoey</a><p>Und</p><r/></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>David Tree</a><p>Und</p><r>fop</r> <n>Freddie Eynsford-Hill</n></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Esme Percy</a><p>Und</p><r/></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Everley Gregg</a><p>Und</p><r/></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>O.B. Clarence</a><p>Und</p><r/></m>
+            <m><f>AA13</f><t>Pygmalion</t><a>Jean Cadell</a><p>Und</p><r/></m></filmc>
+        <filmc>
+            <m><f>AA14</f><t>French Without Tears</t><a>Ray Milland</a><p>Und</p><r>schoolboy</r><error>R(An)</error></m>
+            <m><f>AA14</f><t>French Without Tears</t><a>Ellen Drew</a><p>Und</p><r>teacher</r></m>
+            <m><f>AA14</f><t>French Without Tears</t><a>Guy Middleton</a><p>Und</p><r>schoolboy</r></m>
+            <m><f>AA14</f><t>French Without Tears</t><a>Ronald Culver</a><p>Und</p><r>schoolboy</r><error>Roland</error><error>Sp(An)</error></m></filmc>
+        <filmc>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Margaret Lockwood</a><p>Und</p><r>bride</r></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Derek Farr</a><p>Und</p><r>bridegroom</r></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>A.E. Matthews</a><p>Und</p><r/></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Marjorie Fielding</a><p>Und</p><r>mother</r></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Athene Seyler</a><p>Und</p><r/></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Peggy Ashcroft</a><p>Und</p><r/></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Margaretta Scott</a><p>Und</p><r/></m>
+            <m><f>AA16</f><t>Quiet Wedding</t><a>Bernard Miles</a><p>Und</p><r/></m></filmc>
+        <filmc>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Michael Redgrave</a><p>Und</p><r>bachelor</r> <n>Earnest</n></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Michael Denison</a><p>Und</p><r>bachelor</r></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Edith Evans</a><p>Und</p><r>rich daughter</r></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Margaret Rurtherford</a><p>Und</p><r/></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Joan Greenwood</a><p>Und</p><r/></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Miles Malleson</a><p>Und</p><r/></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Doroty Tutin</a><p>Und</p><r/></m>
+            <m><f>AA29</f><t>The Importance of Being Earnest</t><a>Walter Hudd</a><p>Und</p><r/></m></filmc>
+        <filmc>
+            <m><f>AA37</f><t>Libel</t><a>Dirk Bogarde</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Olivia deHavilland</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Paul Massie</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Wilfrid Hyde White</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Robert Morley</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Anthony Dawson</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Richard Wattis</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Martin Miller</a><p>Und</p><r/></m>
+            <m><f>AA37</f><t>Libel</t><a>Millicent Martin</a><p>Und</p><r/></m></filmc>
+        <filmc>
+            <m><f>AA38</f><t>The Millionairess</t><a>Peter Sellers</a><p>Und</p><r>poor Indian doctor</r></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Sophia Loren</a><p>Und</p><r>millionairess, falls for doctor</r></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Alastair Sim</a><p>Und</p><r/></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Vittorio deSics</a><p>Und</p><r/></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Dennis Price</a><p>Und</p><r/></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Gary Raymond</a><p>Und</p><r/></m>
+            <m><f>AA38</f><t>The Millionairess</t><a>Alfie Bass</a><p>Und</p><r/></m></filmc>
+        <filmc>
+            <m><f>AA41</f><t>The VIPs</t><a>Richard Burton</a><p>Und</p><r>delayed passenger</r></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Elizabeth Taylor</a><p>Und</p><r>delayed passenger</r></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Maggie Smith</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Rod Taylor</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Margaret Rutherford</a><p>Und</p><r/><awards><award>AA</award></awards></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Louis Jordon</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Elsa Martinelli</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Orson Welles</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Linda Chistian</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Dennis Price</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Richard Wattis</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>David Frost</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Robert Coote</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Joan Benham</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Michael Hodern</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Lance Percival</a><p>Und</p><r/></m>
+            <m><f>AA41</f><t>The VIPs</t><a>Martin Miller</a><p>Und</p><r/></m></filmc>
+    </dirfilms>
+
+</casts>

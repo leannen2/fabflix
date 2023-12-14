@@ -1,0 +1,30 @@
+body {
+    margin: 10px;
+}
+#page_nav {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#item-message-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+#top_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+#checkout_btn {
+    margin-left: auto;
+}

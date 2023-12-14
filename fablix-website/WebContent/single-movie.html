@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Single Movie</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div id="item-message-container" style="width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    display: none;">
+  <p id="item-message" class="btn btn-secondary">Item added</p>
+</div>
+
+<button type="button" id="go-to-movie-list" class="btn btn-light">Go To Movie List</button>
+<a href="shopping-cart.html">
+  <button type="button" class="btn btn-warning" id="checkout_btn">Checkout</button>
+</a>
+<button type="button" class="btn btn-outline-primary" id="add_btn">Add Movie to Shopping Cart</button>
+
+<!-- H3 body is left empty here, will be populated with the data retrieved with single-star.js -->
+<!-- single-star.js will find this html element by it's id "star_info" -->
+<h3 id="movie_info"></h3>
+<h1 id="movie_title"></h1>
+<h2 id="movie_year"></h2>
+<h2 id="genres">Genres</h2>
+<p id="genres_body"></p>
+<h2 id="stars">Stars</h2>
+<p id="stars_body"></p>
+<h2 id="movie_rating_header">Rating</h2>
+<p id="movie_rating_body"></p>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Load our own JS file -->
+<!-- The path is relative to single-star.html, since these two files are in the same directory -->
+<!-- Note the url does not contain a "/" in the beginning, which means the url is relative to current path
+     otherwise the url is relative to the root path-->
+<script type="module" src="single-movie.js"></script>
+
+</body>
+</html>

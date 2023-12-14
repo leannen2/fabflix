@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="45sp"
+            android:text="Mission Impossible"/>
+
+    <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" android:text="Year"/>
+
+    <TextView
+            android:id="@+id/director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" android:text="Directed by: Danny"/>
+
+    <TextView
+            android:id="@+id/genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" android:text="Genres: Drama, Romance, Fiction"/>
+
+    <TextView
+            android:id="@+id/stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black" android:text="Stars: Alexander Hamilton, Travis Kelce"/>
+
+</LinearLayout>

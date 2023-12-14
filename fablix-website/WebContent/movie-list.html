@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie List</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="movie-list.css">
+
+</head>
+<body>
+<a href="main-page.html">Main Page</a>
+<div id="item-message-container">
+    <p id="item-message" class="btn btn-secondary">Item added</p>
+</div>
+
+
+<div style="z-index: -1" id="top_nav">
+    <h1>Movie List Page</h1>
+    <a href="shopping-cart.html">
+        <button type="button" class="btn btn-warning" id="checkout_btn">Checkout</button>
+    </a>
+</div>
+
+<!-- H3 body is left empty here, will be populated with the data retrieved with single-star.js -->
+<!-- single-star.js will find this html element by it's id "star_info" -->
+<!--<h3 id="movie_info"></h3>-->
+<label for="num_of_movies_displayed">Number of Movies to Display: </label>
+<select name="num_of_movies_displayed" id="num_of_movies_displayed">
+    <option value="10">10</option>
+    <option value="25">25</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+</select>
+
+<div >
+    <button id="title_asc">Title Ascending</button>
+    <button id="title_desc">Title Descending</button>
+    <button id="rating_asc">Rating Ascending</button>
+    <button id="rating_desc">Rating Descending</button>
+</div>
+<table id=movie_table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Movie Title</th>
+        <th>Release Year</th>
+        <th>Director</th>
+        <th>Genres</th>
+        <th>Stars</th>
+        <th>Rating</th>
+    </tr>
+    </thead>
+
+    <!-- Table body is left empty here, will be populated with the data retrieved with single-star.js -->
+    <!-- single-star.js will find this html element by it's id "movie_table_body" -->
+    <tbody id=movie_table_body></tbody>
+</table>
+
+<div id="page_nav">
+    <button type="button" id="prev_button">Previous</button>
+    <button type="button" id="next_button">Next</button>
+</div>
+
+<!-- Load jQuery and Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="module" src="movie-list.js"></script>
+
+</body>
+</html>

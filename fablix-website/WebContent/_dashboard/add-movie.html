@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Movie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<h1> Add Movie </h1>
+<form action="api/add-movie" method="post" id="add-movie-form">
+  Movie Title: <input type="text" id="movie-title" name="movieTitle">
+  <br> <br>
+
+  Movie Director: <input type="text" id="movie-director" name="movieDirector">
+  <br><br>
+
+  Movie Year: <input type="text" id="movie-year" name="movieYear">
+  <br><br>
+
+  Star Name: <input type="text" id="movie-star-name" name="starName">
+    <br><br>
+
+  Genre: <input type="text" id="genre" name="genre">
+    <br><br>
+  <input type="submit" value="Add Movie">
+</form>
+<br>
+<p style="color: red" id="movie-message-container"></p>
+
+<h1> Add Star </h1>
+<form action="api/add-star" method="post" id="add-star-form">
+    Star Name: <input type="text" id="star-name" name="starName">
+    <br> <br>
+
+    Birth Year: <input type="text" id="star-birth-year" name="starBirthYear">
+    <br><br>
+
+    <input type="submit" value="Add Star">
+</form>
+<br>
+
+<p style="color: red" id="star-message-container"></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="add-movie.js"></script>
+</body>
+</html>

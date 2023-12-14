@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<button type="button" class="btn btn-secondary" id="movie-list-btn">Go Back to Movie List</button>
+<h1>Your Shopping Cart</h1>
+
+<a href="payment-page.html"><button type="button" class="btn btn-warning" id="place-order-btn">Proceed to Payment</button></a>
+
+<table id=shopping_cart_table class="table table-striped">
+  <thead>
+  <tr>
+    <th>Movie Title</th>
+    <th>Quantity</th>
+    <th></th>
+    <th>Price</th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody id=shopping_cart_table_body></tbody>
+</table>
+<p id="total-price">Total Price: </p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="module" src="shopping-cart.js"></script>
+</body>
+</html>
